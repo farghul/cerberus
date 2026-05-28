@@ -1,0 +1,54 @@
+# Exclude binaries for programs and plugins
+*.cab
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.out
+*.so
+*.test
+
+# Exclude generated files
+.DS_Store
+._.DS_Store
+.idea
+.Trashes
+.vscode
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+**/*.class
+*.gem
+*.lock
+*.iso
+*.tmp
+*~
+
+# Exclude specified directories
+bin/
+local/
+scripts/
+temp/
+
+# Exclude environment files
+.env
+.env.*
+!.env.example
+
+# Exclude Go workspace files
+go.work
+go.work.sum
+
+# Exclude log files
+*.log
+
+# Exclude package files
+*.ear
+*.jar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# Exclude Recycle Bin used on file shares
+$RECYCLE.BIN/
